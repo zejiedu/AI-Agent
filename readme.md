@@ -4,6 +4,15 @@
 
 从极简智能体demo开始，逐步引入复杂功能，覆盖从基础到高级的智能体系统开发。
 
+[开始阅读](https://zejiedu.github.io/AI-Agent/)  
+或则clone到本地. 依次执行:
+```sh
+git clone https://github.com/zejiedu/AI-Agent.git
+cd AI-Agent
+python -m http.server 9000
+```
+在浏览器中打开 localhost:9000
+
 ## 项目简介
 
 

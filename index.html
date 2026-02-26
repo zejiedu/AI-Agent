@@ -122,27 +122,29 @@
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script> -->
 
+  
   <!-- 复制代码  -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
-  <!-- <script src="//cdn.jsdelivr.net/npm/prismjs@1.30.0/components/prism-cpp.min.js"></script> -->
+  <script async src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script async src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
+  <!-- <script async src="//cdn.jsdelivr.net/npm/prismjs@1.30.0/components/prism-cpp.min.js"></script> -->
+  <script src="config/lib/python.js"></script>
 
   <!-- 上一位 下一位 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script async src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
 
 
   <!-- 页脚信息 -->
-  <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+  <script async src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
 
 
 
   <!-- 访问量统计 -->
   <!-- <script async src="//cdn.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.min.js"></script> -->
-  <!-- <script src="https://unpkg.com/docsify-busuanzi@1.0.1/dist/docsify-busuanzi.min.js"></script> -->
+  <!-- <script async src="https://unpkg.com/docsify-busuanzi@1.0.1/dist/docsify-busuanzi.min.js"></script> -->
 
 
   <!-- url连接包含中文时乱码解决方案 -->
-  <!-- <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- <script async src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
   <script>
     $(function () {
       $('input').bind('input propertychange', function () {
@@ -182,14 +184,14 @@
     mermaid.initialize({ startOnLoad: true });
     window.mermaid = mermaid;
   </script>
-  <script src="//unpkg.com/docsify-mermaid@2.0.1/dist/docsify-mermaid.js"></script>
+  <script  src="//unpkg.com/docsify-mermaid@2.0.1/dist/docsify-mermaid.js"></script>
   <!-- 支持 drawio -->
-  <script src="//cdn.jsdelivr.net/gh/Navyum/file@main/plugin/drawio-viewer.min.js"></script>
-  <script src='//cdn.jsdelivr.net/gh/Navyum/file@main/plugin/drawio.js'></script>
+  <script  src="//cdn.jsdelivr.net/gh/Navyum/file@main/plugin/drawio-viewer.min.js"></script>
+  <script  src='//cdn.jsdelivr.net/gh/Navyum/file@main/plugin/drawio.js'></script>
 
 
   <!-- 复制提醒 -->
-  <script src="https://notebook.js.org/plugin/sweetalert.min.js"></script>
+  <script async src="https://notebook.js.org/plugin/sweetalert.min.js"></script>
   <script>
     document.body.oncopy = function () {
       confirm("复制成功 🎉 若要转载或引用请务必保留原文链接，并申明来源。如果你觉得本仓库不错，那就来 GitHub 给个 Star 吧 😊",
